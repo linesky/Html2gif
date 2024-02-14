@@ -23,7 +23,7 @@ def create_colored_bmp(filename, width, height, color_index,input_text):
             hh=input_text.split("\n")
             for j in range(len(hh)):
                 try:
-                    iii.text((y, 30),hh[j])
+                    iii.text(( 30,y),hh[j])
                     y=y+20
                 except:
                     xgate=""
